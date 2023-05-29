@@ -2,15 +2,23 @@ import React from 'react'
 
 function Controlled() {
 
+
+
     var rf1 = React.useRef();
     var rf2 = React.useRef();
     var rf3 = React.useRef();
+
+    React.useEffect(()=>{
+        rf1.current.focus();
+    },[])
+
     function add(){
         var n1 = +rf1.current.value;
         var n2 = +rf2.current.value;
         var result = n1+n2;
         document.getElementById("res").innerHTML=result;
     }
+
     function checkEnter(e){
         if(e.key==='Enter'){
             rf2.current.focus();
