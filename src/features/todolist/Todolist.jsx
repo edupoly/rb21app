@@ -18,7 +18,7 @@ function Todolist() {
                                 <button onClick={()=>{dispatch(deleteTodo(i))}}>Delete</button>
                             </li>)
                 })
-            }     
+            }
         </div>
     )
 }
