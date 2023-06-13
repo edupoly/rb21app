@@ -30,6 +30,9 @@ function App() {
                 <li class="nav-item">
                   <Link class="nav-link active" aria-current="page" to="/products">Products</Link>
                 </li>
+                <li class="nav-item">
+                  <Link class="nav-link active" aria-current="page" to="/students">Students</Link>
+                </li>
               </ul>
             </div>
           </div>

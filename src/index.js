@@ -12,6 +12,7 @@ import Todolist from './features/todolist/Todolist';
 import Countries from './features/countries/Countries';
 import CountryDetails from './features/countries/CountryDetails';
 import Products from './features/products/Products';
+import Students from './features/students/Students';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path:'/products',
         element:<Products></Products>
+      },
+      {
+        path:'/students',
+        element:<Students></Students>
       }
     ]
   },
