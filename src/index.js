@@ -13,6 +13,10 @@ import Countries from './features/countries/Countries';
 import CountryDetails from './features/countries/CountryDetails';
 import Products from './features/products/Products';
 import Students from './features/students/Students';
+import Employees from './features/employees/Employees';
+import EmployeeAdd from './features/employees/EmployeeAdd';
+import EmployeeUpdate from './features/employees/EmployeeUpdate';
+import Login from './features/User/Login';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,6 +45,22 @@ const router = createBrowserRouter([
       {
         path:'/students',
         element:<Students></Students>
+      },
+      {
+        path:'/employees',
+        element:<Employees></Employees>
+      },
+      {
+        path:'/addEmployee',
+        element:<EmployeeAdd></EmployeeAdd>
+      },
+      {
+        path:'/editEmp/:id',
+        element:<EmployeeUpdate></EmployeeUpdate>
+      },
+      {
+        path:'/login',
+        element:<Login></Login>
       }
     ]
   },

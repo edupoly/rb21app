@@ -21,5 +21,40 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "employees": [
+    {
+      "username": "umak",
+      "password": "123",
+      "role": "employee",
+      "firstname": "uma",
+      "lastname": "k",
+      "age": 20,
+      "id": 1
+    },
+    {
+      "username": "sumav",
+      "password": "123",
+      "role": "employee",
+      "firstname": "sumav",
+      "lastname": "varshitha",
+      "age": "20",
+      "id": 3
+    },
+    {
+      "username": "admin",
+      "password": "123",
+      "role": "admin",
+      "firstname": "praveen",
+      "lastname": "sdf",
+      "age": "23",
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    }
+  ]
 }
